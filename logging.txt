@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Dragon",
+    "phone_number": "(+63) 0917 122 23 23",
+    "address": "Asia",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Nihongo",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 04 Mar 2020 07:09:47 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ffd2b6371001b37e4d797fc94f95f05c",
+    "scope": "APP",
+    "reference": "35d8a0f45c2ba80cbee0d4104121d66d35d8a0f45c2ba80cbee0d4104121d66d",
+    "id": "35d8a0f45c2ba80cbee0d4104121d66d"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=ffd2b6371001b37e4d797fc94f95f05c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ffd2b6371001b37e4d797fc94f95f05c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 04 Mar 2020 07:09:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Dragon",
+    "phone_number": "(+63) 0917 122 23 23",
+    "address": "Asia",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Nihongo"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sm Light Mall",
+    "phone_number": "(+63) 0917 122 23 23",
+    "address": "Boni Mandaluyong",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tagalog",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 04 Mar 2020 07:09:48 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "5c6f34132293e33d4a841b44aafd6cd0",
+    "scope": "APP",
+    "reference": "74ca63fe58e7dff6b4e604b19c554e6374ca63fe58e7dff6b4e604b19c554e63",
+    "id": "74ca63fe58e7dff6b4e604b19c554e63"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=5c6f34132293e33d4a841b44aafd6cd0
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=5c6f34132293e33d4a841b44aafd6cd0
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 04 Mar 2020 07:09:49 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sm Light Mall",
+    "phone_number": "(+63) 0917 122 23 23",
+    "address": "Boni Mandaluyong",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Tagalog"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "5c6f34132293e33d4a841b44aafd6cd0"
+}
+HTTP/1.1 200 OK
+Date: Wed, 04 Mar 2020 07:09:50 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
